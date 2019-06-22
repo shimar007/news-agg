@@ -1,0 +1,22 @@
+uuid: 1fc1aabd-0017-4c39-871f-4ee3529ace91
+langcode: en
+status: true
+dependencies:
+  theme:
+    - news_agg
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: news_agg_local_tasks
+theme: news_agg
+region: header
+weight: 10
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

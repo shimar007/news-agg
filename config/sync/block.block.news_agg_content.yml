@@ -1,0 +1,22 @@
+uuid: df6481b8-1ad5-4c47-991a-83da58a9eb90
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - news_agg
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: news_agg_content
+theme: news_agg
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

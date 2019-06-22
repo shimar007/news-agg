@@ -1,0 +1,22 @@
+uuid: 798e3bb5-405e-4cb8-8beb-76213c09fbfb
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - news_agg
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: news_agg_help
+theme: news_agg
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
