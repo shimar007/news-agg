@@ -9,7 +9,9 @@
         "drupal/google_tag": "^1.1",
         "drupal/bootstrap": "^3.20",
         "drupal/feeds": "^3.0",
-        "drupal/views_infinite_scroll": "^1.5"
+        "drupal/views_infinite_scroll": "^1.5",
+        "drupal/metatag": "^1.8",
+        "drupal/adminimal_theme": "^1.5"
     },
     "replace": {
         "drupal/core": "^8.7"
