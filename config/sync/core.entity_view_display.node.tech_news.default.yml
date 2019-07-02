@@ -1,0 +1,28 @@
+uuid: f9ae2ecf-74df-48d2-b34b-32f00d9d696d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tech_news.body
+    - node.type.tech_news
+  module:
+    - text
+    - user
+id: node.tech_news.default
+targetEntityType: node
+bundle: tech_news
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

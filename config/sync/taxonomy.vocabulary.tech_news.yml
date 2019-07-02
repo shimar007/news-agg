@@ -1,0 +1,8 @@
+uuid: d88da7f8-2951-42da-9a7f-c537eaad73e8
+langcode: en
+status: true
+dependencies: {  }
+name: 'Tech News'
+vid: tech_news
+description: ''
+weight: 0

@@ -2,10 +2,10 @@ schemas:
   bootstrap: 8000
   news_agg: 8000
 favicon:
-  mimetype: image/vnd.microsoft.icon
-  path: ''
+  mimetype: image/png
+  path: 'public://favicon.png'
   url: 'http://news-agg.local/themes/contrib/bootstrap/favicon.ico'
-  use_default: true
+  use_default: false
 features:
   comment_user_picture: true
   comment_user_verification: true
@@ -15,3 +15,5 @@ logo:
   path: 'public://news-aggregator.png'
   url: ''
   use_default: false
+reset_http_request_cache: ''
+table: ''
