@@ -1,0 +1,26 @@
+{
+  "name": "news_agg",
+  "version": "1.0.0",
+  "description": "News Aggregator - All News At One Go",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-livereload": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-sass-glob": "^1.0.9",
+    "imagemin-pngquant": "^8.0.0"
+  }
+}
