@@ -11,10 +11,10 @@
         "drupal/feeds": "^3.0",
         "drupal/views_infinite_scroll": "^1.5",
         "drupal/metatag": "^1.8",
-        "drupal/adminimal_theme": "^1.5"
+        "drupal/adminimal_theme": "^1.5",
+        "drupal/core": "^8.6"
     },
     "replace": {
-        "drupal/core": "^8.7"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
