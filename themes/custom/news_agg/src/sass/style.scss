@@ -1,2 +1,7 @@
-@import "base/*";
-@import "components/*";
+//base configuration
+@import "base/fonts";
+@import "base/variables";
+@import "base/base";
+
+//components
+@import "components/logo";
