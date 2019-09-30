@@ -1,0 +1,23 @@
+uuid: 1269b913-d82a-4f79-8716-093f9201744b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_to
+    - node.type.tech_news
+  module:
+    - link
+id: node.tech_news.field_link_to
+field_name: field_link_to
+entity_type: node
+bundle: tech_news
+label: 'Link To'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

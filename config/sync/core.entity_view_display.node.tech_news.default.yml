@@ -4,8 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.tech_news.body
+    - field.field.node.tech_news.field_link_to
+    - field.field.node.tech_news.field_tech_news
     - node.type.tech_news
   module:
+    - link
     - text
     - user
 id: node.tech_news.default
@@ -19,6 +22,26 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_link_to:
+    weight: 102
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_tech_news:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
     region: content
   links:
     weight: 100

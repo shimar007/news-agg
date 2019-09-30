@@ -1,0 +1,29 @@
+uuid: bc701e27-5b31-4b37-9415-ad1c5d4423a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tech_news
+    - node.type.tech_news
+    - taxonomy.vocabulary.tech_news
+id: node.tech_news.field_tech_news
+field_name: field_tech_news
+entity_type: node
+bundle: tech_news
+label: 'Tech News'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tech_news: tech_news
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

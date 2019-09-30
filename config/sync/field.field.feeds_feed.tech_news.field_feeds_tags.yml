@@ -1,0 +1,29 @@
+uuid: 7be40a6c-acaf-4dab-a455-122df1e582b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - feeds.feed_type.tech_news
+    - field.storage.feeds_feed.field_feeds_tags
+    - taxonomy.vocabulary.tech_news
+id: feeds_feed.tech_news.field_feeds_tags
+field_name: field_feeds_tags
+entity_type: feeds_feed
+bundle: tech_news
+label: 'Feeds - Tags'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tech_news: tech_news
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
