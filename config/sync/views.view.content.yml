@@ -2,8 +2,11 @@ uuid: d1ebc935-8807-4844-984d-73328ede3f66
 langcode: en
 status: true
 dependencies:
+  config:
+    - taxonomy.vocabulary.tech_news
   module:
     - node
+    - taxonomy
     - user
 _core:
   default_config_hash: tS8PbpJX90aRFC3-UTgXzdqkq7_2frk2pz4TMijEebM
@@ -533,6 +536,51 @@ display:
           plugin_id: node_status
           group: 1
           entity_type: node
+        field_tech_news_target_id:
+          id: field_tech_news_target_id
+          table: node__field_tech_news
+          field: field_tech_news_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: or
+          value: {  }
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_tech_news_target_id_op
+            label: 'Tech News'
+            description: ''
+            use_operator: false
+            operator: field_tech_news_target_id_op
+            identifier: field_tech_news_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          type: select
+          limit: true
+          vid: tech_news
+          hierarchy: false
+          error_message: true
+          plugin_id: taxonomy_index_tid
       sorts: {  }
       title: Content
       empty:
