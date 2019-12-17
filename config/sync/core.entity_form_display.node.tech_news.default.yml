@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.tech_news.body
+    - field.field.node.tech_news.feeds_item
     - field.field.node.tech_news.field_link_to
     - field.field.node.tech_news.field_tech_news
     - node.type.tech_news
@@ -23,6 +24,7 @@ content:
       rows: 9
       summary_rows: 3
       placeholder: ''
+      show_summary: false
     third_party_settings: {  }
     region: content
   created:
@@ -45,6 +47,7 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content
@@ -90,6 +93,8 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     region: content
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  feeds_item: true

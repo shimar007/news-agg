@@ -92,30 +92,8 @@ class ComposerStaticInitDrupal8
             'Drupal\\Driver\\' => 14,
             'Drupal\\Core\\Composer\\' => 21,
             'Drupal\\Core\\' => 12,
-            'Drupal\\Component\\Version\\' => 25,
-            'Drupal\\Component\\Uuid\\' => 22,
-            'Drupal\\Component\\Utility\\' => 25,
-            'Drupal\\Component\\Transliteration\\' => 33,
-            'Drupal\\Component\\Serialization\\' => 31,
-            'Drupal\\Component\\Render\\' => 24,
-            'Drupal\\Component\\ProxyBuilder\\' => 30,
-            'Drupal\\Component\\Plugin\\' => 24,
-            'Drupal\\Component\\PhpStorage\\' => 28,
-            'Drupal\\Component\\HttpFoundation\\' => 32,
-            'Drupal\\Component\\Graph\\' => 23,
-            'Drupal\\Component\\Gettext\\' => 25,
-            'Drupal\\Component\\FileSystem\\' => 28,
-            'Drupal\\Component\\FileCache\\' => 27,
-            'Drupal\\Component\\EventDispatcher\\' => 33,
-            'Drupal\\Component\\Discovery\\' => 27,
-            'Drupal\\Component\\Diff\\' => 22,
-            'Drupal\\Component\\DependencyInjection\\' => 37,
-            'Drupal\\Component\\Datetime\\' => 26,
-            'Drupal\\Component\\ClassFinder\\' => 29,
-            'Drupal\\Component\\Bridge\\' => 24,
-            'Drupal\\Component\\Assertion\\' => 27,
-            'Drupal\\Component\\Annotation\\' => 28,
             'Drupal\\Component\\' => 17,
+            'Doctrine\\Persistence\\' => 21,
             'Doctrine\\Common\\Lexer\\' => 22,
             'Doctrine\\Common\\Inflector\\' => 26,
             'Doctrine\\Common\\Collections\\' => 28,
@@ -127,10 +105,6 @@ class ComposerStaticInitDrupal8
         array (
             'Composer\\Semver\\' => 16,
             'Composer\\Installers\\' => 20,
-        ),
-        'B' => 
-        array (
-            'Brumann\\Polyfill\\' => 17,
         ),
         'A' => 
         array (
@@ -297,102 +271,14 @@ class ComposerStaticInitDrupal8
             0 => __DIR__ . '/../..' . '/core/lib/Drupal/Core',
             1 => __DIR__ . '/../..' . '/core/lib/Drupal/Core',
         ),
-        'Drupal\\Component\\Version\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/Version',
-        ),
-        'Drupal\\Component\\Uuid\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/Uuid',
-        ),
-        'Drupal\\Component\\Utility\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/Utility',
-        ),
-        'Drupal\\Component\\Transliteration\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/Transliteration',
-        ),
-        'Drupal\\Component\\Serialization\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/Serialization',
-        ),
-        'Drupal\\Component\\Render\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/Render',
-        ),
-        'Drupal\\Component\\ProxyBuilder\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/ProxyBuilder',
-        ),
-        'Drupal\\Component\\Plugin\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/Plugin',
-        ),
-        'Drupal\\Component\\PhpStorage\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/PhpStorage',
-        ),
-        'Drupal\\Component\\HttpFoundation\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/HttpFoundation',
-        ),
-        'Drupal\\Component\\Graph\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/Graph',
-        ),
-        'Drupal\\Component\\Gettext\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/Gettext',
-        ),
-        'Drupal\\Component\\FileSystem\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/FileSystem',
-        ),
-        'Drupal\\Component\\FileCache\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/FileCache',
-        ),
-        'Drupal\\Component\\EventDispatcher\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/EventDispatcher',
-        ),
-        'Drupal\\Component\\Discovery\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/Discovery',
-        ),
-        'Drupal\\Component\\Diff\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/Diff',
-        ),
-        'Drupal\\Component\\DependencyInjection\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/DependencyInjection',
-        ),
-        'Drupal\\Component\\Datetime\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/Datetime',
-        ),
-        'Drupal\\Component\\ClassFinder\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/ClassFinder',
-        ),
-        'Drupal\\Component\\Bridge\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/Bridge',
-        ),
-        'Drupal\\Component\\Assertion\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/Assertion',
-        ),
-        'Drupal\\Component\\Annotation\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component/Annotation',
-        ),
         'Drupal\\Component\\' => 
         array (
             0 => __DIR__ . '/../..' . '/core/lib/Drupal/Component',
             1 => __DIR__ . '/../..' . '/core/lib/Drupal/Component',
+        ),
+        'Doctrine\\Persistence\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/persistence/lib/Doctrine/Persistence',
         ),
         'Doctrine\\Common\\Lexer\\' => 
         array (
@@ -429,10 +315,6 @@ class ComposerStaticInitDrupal8
         array (
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
         ),
-        'Brumann\\Polyfill\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/brumann/polyfill-unserialize/src',
-        ),
         'Asm89\\Stack\\' => 
         array (
             0 => __DIR__ . '/..' . '/asm89/stack-cors/src/Asm89/Stack',
@@ -452,13 +334,6 @@ class ComposerStaticInitDrupal8
             'Stack' => 
             array (
                 0 => __DIR__ . '/..' . '/stack/builder/src',
-            ),
-        ),
-        'P' => 
-        array (
-            'PEAR' => 
-            array (
-                0 => __DIR__ . '/..' . '/pear/pear_exception',
             ),
         ),
         'E' => 
@@ -500,6 +375,7 @@ class ComposerStaticInitDrupal8
         'Drupal\\Core\\DrupalKernelInterface' => __DIR__ . '/../..' . '/core/lib/Drupal/Core/DrupalKernelInterface.php',
         'Drupal\\Core\\Site\\Settings' => __DIR__ . '/../..' . '/core/lib/Drupal/Core/Site/Settings.php',
         'Error' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/Error.php',
+        'PEAR_Exception' => __DIR__ . '/..' . '/pear/pear_exception/PEAR/Exception.php',
         'ParseError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ParseError.php',
         'SessionUpdateTimestampHandlerInterface' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/SessionUpdateTimestampHandlerInterface.php',
         'Symfony\\Component\\HttpFoundation\\FileBag' => __DIR__ . '/..' . '/symfony/http-foundation/FileBag.php',
