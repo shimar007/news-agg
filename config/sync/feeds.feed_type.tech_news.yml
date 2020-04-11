@@ -12,6 +12,7 @@ dependencies:
 label: 'Tech News'
 id: tech_news
 description: ''
+help: null
 import_period: 3600
 fetcher: http
 fetcher_configuration:
