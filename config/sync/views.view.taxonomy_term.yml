@@ -349,7 +349,7 @@ display:
             more_link: false
             more_link_text: ''
             more_link_path: ''
-            strip_tags: false
+            strip_tags: true
             trim: false
             preserve_tags: ''
             html: false
@@ -366,7 +366,7 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: value
-          type: text_summary_or_trimmed
+          type: text_trimmed
           settings:
             trim_length: 600
           group_column: value
