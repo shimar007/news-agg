@@ -1487,6 +1487,59 @@
         }
     },
     {
+        "name": "drupal/field_display_label",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/field_display_label.git",
+            "reference": "8.x-1.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/field_display_label-8.x-1.0.zip",
+            "reference": "8.x-1.0",
+            "shasum": "c2ae0e137d74ba72c9d0e1ca6f455681b09ed1a9"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0",
+                "datestamp": "1468146539",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Anonymous",
+                "homepage": "https://www.drupal.org/user/0"
+            },
+            {
+                "name": "Plazik",
+                "homepage": "https://www.drupal.org/user/982724"
+            }
+        ],
+        "description": "Defines a label for fields that is used for displaying content which can be different than the form label.",
+        "homepage": "https://www.drupal.org/project/field_display_label",
+        "support": {
+            "source": "https://git.drupalcode.org/project/field_display_label"
+        }
+    },
+    {
         "name": "drupal/field_group",
         "version": "3.0.0",
         "version_normalized": "3.0.0.0",
@@ -1805,6 +1858,73 @@
         "homepage": "https://www.drupal.org/project/shield",
         "support": {
             "source": "https://git.drupalcode.org/project/shield"
+        }
+    },
+    {
+        "name": "drupal/sitemap",
+        "version": "1.5.0",
+        "version_normalized": "1.5.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/sitemap.git",
+            "reference": "8.x-1.5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/sitemap-8.x-1.5.zip",
+            "reference": "8.x-1.5",
+            "shasum": "aa6f0189eba189c9f6c1a1e24505f1ce802eeea1"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.5",
+                "datestamp": "1541693881",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Nik Alexandrov",
+                "homepage": "https://www.drupal.org/u/nafes",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Anna Kalata",
+                "homepage": "https://www.drupal.org/u/akalata",
+                "role": "Co-maintainer"
+            },
+            {
+                "name": "killes@www.drop.org",
+                "homepage": "https://www.drupal.org/u/killeswww.drop.org",
+                "role": "Co-maintainer"
+            },
+            {
+                "name": "See other contributors",
+                "homepage": "https://www.drupal.org/node/3295/committers",
+                "role": "contributor"
+            }
+        ],
+        "description": "Display a sitemap.",
+        "homepage": "http://drupal.org/project/sitemap",
+        "support": {
+            "source": "http://cgit.drupalcode.org/sitemap",
+            "issues": "http://drupal.org/project/issues/sitemap",
+            "irc": "irc://irc.freenode.org/drupal-contribute"
         }
     },
     {

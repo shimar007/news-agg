@@ -20,5 +20,24 @@ div {
     font-weight: 400;
     color: $c-black;
     letter-spacing: 1px;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+}
+
+a {
+    font-family: $font-family-default;
+    font-weight: 400;
+    color: $color-orange;
+    font-size: 1.4rem;
+
+    &:visited {
+        color: $color-orange-hover;
+    }
+
+    &:active {
+        color: $color-orange-hover;
+    }
+
+    &:hover {
+        color: $color-orange-hover;
+    }
 }

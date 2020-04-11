@@ -1,0 +1,23 @@
+uuid: ea84ad8d-4ddb-4c01-abb0-24c00565d39d
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: taxonomy_url_structure
+label: 'Taxonomy URL Structure'
+type: 'canonical_entities:taxonomy_term'
+pattern: '[term:name]'
+selection_criteria:
+  b748fe21-931b-4563-9a43-96e9b5d64e4d:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      tech_news: tech_news
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: b748fe21-931b-4563-9a43-96e9b5d64e4d
+selection_logic: and
+weight: -5
+relationships: {  }

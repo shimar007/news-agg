@@ -16,7 +16,9 @@
         "drupal/field_group": "^3.0",
         "drupal/viewsreference": "^1.4",
         "drupal/shield": "^1.4",
-        "drupal/pathauto": "^1.6"
+        "drupal/pathauto": "^1.6",
+        "drupal/field_display_label": "^1.0",
+        "drupal/sitemap": "^1.5"
     },
     "replace": {
     },

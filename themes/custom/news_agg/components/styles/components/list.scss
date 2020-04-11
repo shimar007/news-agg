@@ -1,0 +1,21 @@
+.list-item {
+    margin: 20px 0;
+
+    .views-field-title {
+        margin-bottom: 10px;
+
+        a {
+            font-size: 1.8rem;
+        }
+    }
+
+    .views-field-body {
+        margin-bottom: 10px;
+    }
+
+    .views-field-view-node {
+        a {
+            font-size: 1.4rem;
+        }
+    }
+}

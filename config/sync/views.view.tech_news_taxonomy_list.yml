@@ -1,6 +1,6 @@
 uuid: b3b91375-e254-4853-89cd-40c0a403cfce
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - taxonomy.vocabulary.tech_news
