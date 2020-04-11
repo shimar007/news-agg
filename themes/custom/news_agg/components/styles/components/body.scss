@@ -3,6 +3,12 @@
         .field--name-body {
             overflow: hidden;
 
+            a {
+                img {
+                    margin-right: 10px;
+                }
+            }
+
             img {
                 margin-bottom: 10px;
             }
