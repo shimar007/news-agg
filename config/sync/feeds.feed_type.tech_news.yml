@@ -12,7 +12,7 @@ dependencies:
 label: 'Tech News'
 id: tech_news
 description: ''
-help: null
+help: ''
 import_period: 3600
 fetcher: http
 fetcher_configuration:
@@ -24,7 +24,7 @@ parser: syndication
 parser_configuration: {  }
 processor: 'entity:node'
 processor_configuration:
-  update_existing: 0
+  update_existing: 2
   update_non_existent: _keep
   expire: -1
   owner_feed_author: false
