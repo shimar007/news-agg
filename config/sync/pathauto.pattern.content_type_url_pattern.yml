@@ -1,0 +1,22 @@
+uuid: f3414366-5d9a-4885-9d29-a56b788e095c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: content_type_url_pattern
+label: 'Content Type - URL Pattern'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  e31d318e-b674-451b-b08a-5fd1f2174e3f:
+    id: node_type
+    bundles:
+      tech_news: tech_news
+    negate: false
+    context_mapping:
+      node: node
+    uuid: e31d318e-b674-451b-b08a-5fd1f2174e3f
+selection_logic: and
+weight: -5
+relationships: {  }

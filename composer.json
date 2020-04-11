@@ -15,7 +15,8 @@
         "drupal/core": "^8.6",
         "drupal/field_group": "^3.0",
         "drupal/viewsreference": "^1.4",
-        "drupal/shield": "^1.4"
+        "drupal/shield": "^1.4",
+        "drupal/pathauto": "^1.6"
     },
     "replace": {
     },
