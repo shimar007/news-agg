@@ -9,14 +9,15 @@ label: 'Content Type - URL Pattern'
 type: 'canonical_entities:node'
 pattern: '[node:title]'
 selection_criteria:
-  e31d318e-b674-451b-b08a-5fd1f2174e3f:
+  561309c4-f6a4-416f-8166-929cff9d4c75:
     id: node_type
     bundles:
+      home_page: home_page
       tech_news: tech_news
     negate: false
     context_mapping:
       node: node
-    uuid: e31d318e-b674-451b-b08a-5fd1f2174e3f
+    uuid: 561309c4-f6a4-416f-8166-929cff9d4c75
 selection_logic: and
 weight: -5
 relationships: {  }

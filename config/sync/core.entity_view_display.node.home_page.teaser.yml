@@ -1,0 +1,24 @@
+uuid: 330cca4a-ad4c-43de-a462-0306ecbcbbb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.home_page.field_meta_tags
+    - field.field.node.home_page.field_page_body_content
+    - node.type.home_page
+  module:
+    - user
+id: node.home_page.teaser
+targetEntityType: node
+bundle: home_page
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_meta_tags: true
+  field_page_body_content: true

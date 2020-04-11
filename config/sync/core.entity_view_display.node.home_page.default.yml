@@ -1,0 +1,35 @@
+uuid: 2efb2006-5a6e-41ba-9210-03de4cdce000
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.home_page.field_meta_tags
+    - field.field.node.home_page.field_page_body_content
+    - node.type.home_page
+  module:
+    - metatag
+    - user
+    - viewsreference
+id: node.home_page.default
+targetEntityType: node
+bundle: home_page
+mode: default
+content:
+  field_meta_tags:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
+  field_page_body_content:
+    weight: 0
+    label: hidden
+    settings:
+      plugin_types:
+        - block
+    third_party_settings: {  }
+    type: viewsreference_formatter
+    region: content
+hidden:
+  links: true
