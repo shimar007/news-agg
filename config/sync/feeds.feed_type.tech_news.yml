@@ -46,7 +46,8 @@ mappings:
     target: title
     map:
       value: title
-    unique: {  }
+    unique:
+      value: '1'
   -
     target: field_link_to
     map:
