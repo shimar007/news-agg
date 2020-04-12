@@ -1,0 +1,25 @@
+uuid: 370e4de3-0c40-45ea-a79e-9b6e329e7a6c
+langcode: en
+status: true
+dependencies:
+  module:
+    - tagclouds
+  theme:
+    - news_agg
+id: tagsintechnews
+theme: news_agg
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'tagclouds_block:tech_news'
+settings:
+  id: 'tagclouds_block:tech_news'
+  label: 'Tags in Tech News'
+  provider: tagclouds
+  label_display: '0'
+  cache:
+    max_age: 0
+    contexts: {  }
+  tags: '0'
+  vocabulary: tags
+visibility: {  }
