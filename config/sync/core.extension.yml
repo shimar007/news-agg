@@ -49,6 +49,7 @@ module:
   system: 0
   tagclouds: 0
   taxonomy: 0
+  taxonomy_menu: 0
   text: 0
   token: 0
   toolbar: 0

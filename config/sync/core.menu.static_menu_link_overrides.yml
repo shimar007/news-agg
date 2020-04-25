@@ -1,3 +1,9 @@
-definitions: {  }
+definitions:
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__1':
+    weight: -50
+    parent: 'menu_link_content:2376735b-1d90-42e9-b068-77d71c4917b9'
+    menu_name: main
+    enabled: true
+    expanded: true
 _core:
   default_config_hash: o4bYR9ZupWb3AsOIizTUG4g-nu1mdJqA59UB7QT-ifQ

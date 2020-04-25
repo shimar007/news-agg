@@ -1,0 +1,16 @@
+uuid: dd9d0e31-efe8-4e98-a7de-b0e969167fd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+    - taxonomy.vocabulary.tech_news
+id: taxonomy_menu_tech_news
+label: 'Taxonomy Menu - Tech News'
+vocabulary: tech_news
+menu: main
+expanded: true
+depth: 0
+menu_parent: 'admin:'
+description_field_name: name
+use_term_weight_order: true
