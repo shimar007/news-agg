@@ -28,7 +28,6 @@ module:
   history: 0
   image: 0
   link: 0
-  menu_breadcrumb: 0
   menu_ui: 0
   metatag: 0
   minifyhtml: 0

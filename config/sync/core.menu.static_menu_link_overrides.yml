@@ -1,9 +1,183 @@
 definitions:
   'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__1':
     weight: -50
-    parent: 'menu_link_content:2376735b-1d90-42e9-b068-77d71c4917b9'
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
     menu_name: main
     enabled: true
     expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__28':
+    weight: -49
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__15':
+    weight: -48
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__13':
+    weight: -47
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__22':
+    weight: -46
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__19':
+    weight: -45
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__9':
+    weight: -44
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__16':
+    weight: -43
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__27':
+    weight: -42
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__14':
+    weight: -41
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__5':
+    weight: -40
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__11':
+    weight: -39
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__4':
+    weight: -38
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__18':
+    weight: -37
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  standard__front_page:
+    weight: -50
+    menu_name: main
+    parent: ''
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__26':
+    weight: -36
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__25':
+    weight: -35
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__3':
+    weight: -34
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__8':
+    weight: -33
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__7':
+    weight: -32
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__21':
+    weight: -31
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__12':
+    weight: -30
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__24':
+    weight: -29
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__20':
+    weight: -28
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__6':
+    weight: -27
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__23':
+    weight: -26
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__17':
+    weight: -25
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__2':
+    weight: -23
+    menu_name: main
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    enabled: true
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__10':
+    weight: -22
+    menu_name: main
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__taxonomy_menu_tech_news__29':
+    weight: -24
+    parent: 'menu_link_content:32eb7525-7daa-4cc3-ad46-6d5bda58191e'
+    menu_name: main
+    expanded: true
+    enabled: true
 _core:
   default_config_hash: o4bYR9ZupWb3AsOIizTUG4g-nu1mdJqA59UB7QT-ifQ

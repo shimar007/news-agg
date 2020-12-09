@@ -11,7 +11,7 @@ _core:
 id: news_agg_content
 theme: news_agg
 region: content
-weight: -7
+weight: 0
 provider: null
 plugin: system_main_block
 settings:
