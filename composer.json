@@ -19,7 +19,7 @@
         "drupal/pathauto": "^1.6",
         "drupal/field_display_label": "^1.0",
         "drupal/sitemap": "^1.5",
-        "drupal/tagclouds": "^1.0",
+        "drupal/tagclouds": "^2.0",
         "drupal/eu_cookie_compliance": "^1.8",
         "drupal/minifyhtml": "^1.9",
         "drupal/simple_sitemap": "^3.6",
