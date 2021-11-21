@@ -41,5 +41,4 @@ return array(
     '952683d815ff0a7bf322b93c0be7e4e4' => $vendorDir . '/chi-teck/drupal-code-generator/src/bootstrap.php',
     '801c31d8ed748cfa537fa45402288c95' => $vendorDir . '/psy/psysh/src/functions.php',
     '2d0bd6b7e257b7230c706e6559d6a87b' => $vendorDir . '/mglaman/phpstan-drupal/drupal-phpunit-hack.php',
-    'e97cc31ba094eb141a505b6020676f7c' => $baseDir . '/core/includes/bootstrap.inc',
 );
