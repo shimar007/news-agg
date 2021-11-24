@@ -1104,6 +1104,20 @@
                 "parser",
                 "php"
             ],
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Flexer",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-05-25T17:44:05+00:00"
         },
         {
@@ -1956,7 +1970,7 @@
             "extra": {
                 "drupal": {
                     "version": "8.x-1.4",
-                    "datestamp": "1591383264",
+                    "datestamp": "1593179846",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2241,10 +2255,6 @@
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev",
-                    "dev-8.x-1.x": "1.x-dev"
-                },
                 "drupal": {
                     "version": "8.x-1.4",
                     "datestamp": "1585608547",
@@ -2252,6 +2262,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "branch-alias": {
+                    "dev-8.x-1.x": "1.x-dev"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -2282,6 +2295,10 @@
                 {
                     "name": "pkiraly",
                     "homepage": "https://www.drupal.org/user/352587"
+                },
+                {
+                    "name": "vbouchet",
+                    "homepage": "https://www.drupal.org/user/1671428"
                 }
             ],
             "description": "Creates a general shield for the site.",
@@ -6991,16 +7008,16 @@
         },
         {
             "name": "symfony/serializer",
-            "version": "v4.4.33",
+            "version": "v4.4.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/serializer.git",
-                "reference": "5cb0dc3028e0f32888fed2d467b7762824fef843"
+                "reference": "1b2ae02cb1b923987947e013688c51954a80b751"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/serializer/zipball/5cb0dc3028e0f32888fed2d467b7762824fef843",
-                "reference": "5cb0dc3028e0f32888fed2d467b7762824fef843",
+                "url": "https://api.github.com/repos/symfony/serializer/zipball/1b2ae02cb1b923987947e013688c51954a80b751",
+                "reference": "1b2ae02cb1b923987947e013688c51954a80b751",
                 "shasum": ""
             },
             "require": {
@@ -7078,7 +7095,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-27T18:46:41+00:00"
+            "time": "2021-11-24T08:12:42+00:00"
         },
         {
             "name": "symfony/service-contracts",
